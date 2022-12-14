@@ -1,0 +1,9 @@
+configuration {
+  show-icons:         true;
+  icon-theme:         "Papirus-Apps";
+  terminal:           "alacritty";
+  cycle:              false;
+  hide-scrollbar:     true;
+  disable-history:    false;
+  opacity:            0.5;
+}

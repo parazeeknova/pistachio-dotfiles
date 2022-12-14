@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+source $HOME/.Merv_var
+
+temp_dev_path="/sys/devices/virtual/thermal"
+TEMP_DEV=thermal_zone0
+
+[[ -d $temp_dev_path/$TEMP_DEV ]] && \
+
+get_temp() {
+    CEL=$'\xc2\xb0C'
+    temp="$(cat $temp_dev_path/$TEMP_DEV/temp)"
+    temp="$(expr $temp / 1000)"
+    echo "$temp$CEL"
+}
+
+get_temp || echo "$TEMP_DEV not found!"; exit 1

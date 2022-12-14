@@ -1,0 +1,5 @@
+#!/bin/bash
+
+level=$(brightnessctl i | grep '%' | awk -F'(' '{print $2}' | awk -F'%' '{print $1}')
+
+echo "$level%"
