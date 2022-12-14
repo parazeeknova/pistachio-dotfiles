@@ -11,7 +11,7 @@
 ---
 
 ## 🌏 Overview :
-<img align="right" src="https://github.com/parazeeknova/pistachio-dotfiles/blob/main/resources/biker.gif?raw=true" width='450'/>
+<img align="right" src="https://github.com/parazeeknova/pistachio-dotfiles/blob/main/resources/biker.gif?raw=true" width='430'/>
 
 - **Operating System** : [`Archcraft`](https://archcraft.io/)
 - **Window Manager** : [`Openbox`](http://openbox.org/wiki/Main_Page)
