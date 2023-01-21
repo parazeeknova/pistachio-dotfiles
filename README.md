@@ -4,6 +4,8 @@
 - 💻 Linux Configuration by [*parazeeknova*](https://github.com/parazeeknova).
 - 📌 Posted on [*r/unixporn*](https://www.reddit.com/r/unixporn/comments/zlmtu3/openbox_finally_figured_out_how_to_enable_blur_in/?utm_source=share&utm_medium=web2x&context=3).
 
+<p align="center"> Won't work on Archcraft 2023 Jan Update < Other Archcraft Verisons because of theme structure change  </p>
+
 ![Screenshot](Preview/Desktop.png)
 
 <p align="center"> Screenshot 🎞️ </p>
